@@ -25,4 +25,14 @@ class Listing {
             ],
         ];
     }
+
+    //single listing
+    public static function find($id) {
+        $listing = self::all();
+        foreach($listing as $list) {
+            if($list['id'] == $id) {
+                return $list;
+            }
+        }
+    }
 }
