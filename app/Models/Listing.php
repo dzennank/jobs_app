@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Listing extends Model
 {
     use HasFactory;
+
+    public function scopeFIlter($query, array $filters) {
+        if($filters['search'] ?? false) {
+            $query->where('title', 'like', '%');
+        }   
+    }
 }

@@ -15,7 +15,7 @@
                 <li
                     class="flex items-center justify-center bg-black text-white rounded-xl py-1 px-3 mr-2 text-xs"
                 >
-                    <a href="#">Laravel</a>
+                    <a href="">Laravel</a>
                 </li>
                 <li
                     class="flex items-center justify-center bg-black text-white rounded-xl py-1 px-3 mr-2 text-xs"
